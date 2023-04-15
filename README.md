@@ -28,10 +28,10 @@ Install local src/ folder
 # Building Docker image
 At the root of the project run
 
-    >docker image build -t dockerfile .
+    >docker build -t gabrielturriza .
 
 This will create a docker image using the `Dockerfile` with the image name `YOUR_NAME`
 
-Run container
+Run container where "path" is change to the path where you want the file.csv download
 
-    >docker run dockerfile
+    >docker run -v "path":/data gabrielturriza
