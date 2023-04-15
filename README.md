@@ -32,6 +32,6 @@ At the root of the project run
 
 This will create a docker image using the `Dockerfile` with the image name `YOUR_NAME`
 
-Run container where "path" is change to the path where you want the file.csv download
+Run container where "path" is change to the path where you want the file.csv download for example I used C:\Users\...\Escritorio
 
     >docker run -v "path":/data gabrielturriza
